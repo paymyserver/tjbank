@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
-<title> BANK |EDU SI KECIL </title>
-<link rel="icon" href="https://banner2.cleanpng.com/20180614/rir/kisspng-infant-computer-icons-child-dingoes-ate-my-baby-5b21ebfa0ac8c2.0922886015289497540442.jpg">
+  <title> BANK |EDU SI KECIL </title>
+  <link rel="icon" href="https://banner2.cleanpng.com/20180614/rir/kisspng-infant-computer-icons-child-dingoes-ate-my-baby-5b21ebfa0ac8c2.0922886015289497540442.jpg">
+    <head>
+<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+return false;
+}
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
+</head>
   <style>
 table,th,td {
   border : 1px solid black;
