@@ -32,7 +32,7 @@ th,td {
 <h1><center> MINIBANK </center></h1>
 
 <center><button type="button" onclick="loadDoc()">BANK INFO</button></center>
-<center><br>Tunjukkan jumlah data kandungan rekod di bank anda (ADMIN ACCESS ONLY)</br></center>
+<center><br>Daftar butiran pengguna (ADMIN ACCESS ONLY)</br></center>
 <center><table id="demo"><table></center>
 <script>
 function loadDoc() {
@@ -64,8 +64,20 @@ function myFunction(xml) {
   document.getElementById("demo").innerHTML = table;
 }
 </script>
-  <p><b>GD PROFIT FOR MALAYSIA MEASURE USING $USD</b></p>
-  <p><iframe src="https://data.worldbank.org/share/widget?indicators=NY.GDP.MKTP.CD&locations=MY" width='450' height='300' frameBorder='0' scrolling="no" ></iframe></p>
+  <p><b>GROSS DOMESTIC PROFIT FOR MALAYSIA MEASURE USING $USD (BILLIONS) </b></p>
+  <legend>
+    <table>
+      <th><b>LEGEND</b></th>
+      <tr>
+      <td>SCALE AXIS</td><td>DEFINISI</td></tr>
+      <tr>
+        <td>Y-AXIS</td><td>MENUNJUKKAN NILAI 'KEUNTUNGAN IMPORT-EXPORT TAHUNAN' YANG TELAH DIPEROLEHI OLEH NEGARA MALAYSIA SEJAK DULU</td></tr>
+      <tr>
+        <td>X-AXIS</td><td>Memaparkan tahun untuk negara Malaysia untuk tujuan mendapatkan keuntungan 'import-export' untuk setiap tahun, dari tahun 1960-2019.</td>
+      </tr>
+        <table>
+  </legend>
+  <p><iframe src="https://data.worldbank.org/share/widget?indicators=NY.GDP.MKTP.CD&locations=MY" width='550' height='300' frameBorder='0' scrolling="no" ></iframe></p>
 </body>
   <footer><center><p>Sample Provided by [Alexander Eric]</center></footer>
 </html>
